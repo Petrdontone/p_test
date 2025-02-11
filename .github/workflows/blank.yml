@@ -50,6 +50,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          bash script.sh
 
   deploy_on_prod:
     runs-on: ubuntu-latest
